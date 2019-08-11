@@ -1,5 +1,5 @@
-Install the dependancies:
-pip3 install xgboost
+<br>Install the dependancies:
+<br>pip3 install xgboost
 
 from https://xgboost.readthedocs.io/en/latest/build.html:
 git clone --recursive https://github.com/dmlc/xgboost
