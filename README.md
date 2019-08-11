@@ -1,3 +1,31 @@
+Install the dependancies:
+pip3 install xgboost
+
+from https://xgboost.readthedocs.io/en/latest/build.html:
+git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost
+mkdir build
+cd build
+cmake ..
+make -j4
+
+cd && cd /home/tegwyn/xgboost/demo/binary_classification
+export PYTHONPATH=~/xgboost/python-package
+bash runexp.sh
+
+This will now have trained the fungi data into 0002.model.
+
+Get my custom files:
+cd && cd /home/tegwyn/xgboost/demo/binary_classification
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mushroom_Paddy.conf
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/questions_01.sh
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mapfeat_paddy.py
+
+Now find a mushroom / toadstool and run the questionnaire for deployment:
+
+bash questions_01.sh
+
+
 <img src=https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/xgboost.png width=135/>  eXtreme Gradient Boosting
 ===========
 [![Build Status](https://xgboost-ci.net/job/xgboost/job/master/badge/icon?style=plastic)](https://xgboost-ci.net/blue/organizations/jenkins/xgboost/activity)
