@@ -18,6 +18,7 @@ Install the dependancies:
 <br>Now find a mushroom / toadstool and run the questionnaire for deployment:
 
 <br>$ bash questions_01.sh
+https://github.com/paddygoat/xgboost/blob/master/demo/binary_classification/script01.png
 
 Binary Classification
 =====================
