@@ -1,3 +1,24 @@
+Install the dependancies:
+<br>pip3 install xgboost
+
+<br>from https://xgboost.readthedocs.io/en/latest/build.html:
+<br>git clone --recursive https://github.com/paddygoat/xgboost
+<br>cd xgboost
+<br>mkdir build
+<br>cd build
+<br>cmake ..
+<br>make -j4
+
+<br>cd && cd /home/tegwyn/xgboost/demo/binary_classification
+<br>export PYTHONPATH=~/xgboost/python-package
+<br>bash runexp.sh
+
+<br>This will now have trained the fungi data into 0002.model.
+
+<br>Now find a mushroom / toadstool and run the questionnaire for deployment:
+
+<br>bash questions_01.sh
+
 Binary Classification
 =====================
 This is the quick start tutorial for xgboost CLI version.
