@@ -1,29 +1,29 @@
-<br>Install the dependancies:
+Install the dependancies:
 <br>pip3 install xgboost
 
-from https://xgboost.readthedocs.io/en/latest/build.html:
-git clone --recursive https://github.com/dmlc/xgboost
-cd xgboost
-mkdir build
-cd build
-cmake ..
-make -j4
+<br>from https://xgboost.readthedocs.io/en/latest/build.html:
+<br>git clone --recursive https://github.com/dmlc/xgboost
+<br>cd xgboost
+<br>mkdir build
+<br>cd build
+<br>cmake ..
+<br>make -j4
 
-cd && cd /home/tegwyn/xgboost/demo/binary_classification
-export PYTHONPATH=~/xgboost/python-package
-bash runexp.sh
+<br>cd && cd /home/tegwyn/xgboost/demo/binary_classification
+<br>export PYTHONPATH=~/xgboost/python-package
+<br>bash runexp.sh
 
-This will now have trained the fungi data into 0002.model.
+<br>This will now have trained the fungi data into 0002.model.
 
-Get my custom files:
-cd && cd /home/tegwyn/xgboost/demo/binary_classification
-wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mushroom_Paddy.conf
-wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/questions_01.sh
-wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mapfeat_paddy.py
+<br>Get my custom files:
+<br>cd && cd /home/tegwyn/xgboost/demo/binary_classification
+<br>wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mushroom_Paddy.conf
+<br>wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/questions_01.sh
+<br>wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/paddygoat/Machine_learning/master/mapfeat_paddy.py
 
-Now find a mushroom / toadstool and run the questionnaire for deployment:
+<br>Now find a mushroom / toadstool and run the questionnaire for deployment:
 
-bash questions_01.sh
+<br>bash questions_01.sh
 
 
 <img src=https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/xgboost.png width=135/>  eXtreme Gradient Boosting
