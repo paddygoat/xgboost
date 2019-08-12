@@ -1,4 +1,5 @@
-Install the dependancies:
+For Linux Ubuntu / Raspian
+<br>Install the dependancies:
 <br>$ pip3 install xgboost
 
 <br>from https://xgboost.readthedocs.io/en/latest/build.html:
