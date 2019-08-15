@@ -8,7 +8,7 @@ For Linux Ubuntu / Raspian
 <br>$ mkdir build
 <br>$ cd build
 <br>$ cmake ..
-<br>$ make -j4
+<br>$ make -j2                (j4 can be used for modern laptops)
 
 <br>$ cd && cd /home/tegwyn/xgboost/demo/binary_classification
 <br>$ export PYTHONPATH=~/xgboost/python-package
